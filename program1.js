@@ -4,7 +4,6 @@ const getTotalIsles = function (grid) {
   }
   const row = grid.length;
   const col = grid[0].length;
-  
   const visit = Array.from({ length: row }, () => Array(col).fill(false));
   const direction = [
     [-1, 0],
