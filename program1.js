@@ -33,19 +33,3 @@ const getTotalIsles = function (grid) {
 
   return landCount;
 };
-
-const grid1 = [
-  ["L", "L", "L", "L", "W"],
-  ["L", "L", "W", "L", "W"],
-  ["L", "L", "W", "W", "W"],
-  ["W", "W", "W", "W", "W"],
-];
-console.log(getTotalIsles(grid1));  // Output: 1
-
-const grid2 = [
-  ["L", "L", "W", "W", "W"],
-  ["L", "L", "W", "W", "W"],
-  ["W", "W", "L", "W", "W"],
-  ["W", "W", "W", "L", "L"],
-];
-console.log(getTotalIsles(grid2));  // Output: 3
