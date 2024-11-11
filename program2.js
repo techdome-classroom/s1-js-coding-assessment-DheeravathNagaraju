@@ -19,9 +19,3 @@ const decodeTheRing = function (s, p) {
     }
     return dy[x][y];
 };
-
-console.log(decodeTheRing("aa", "a")); // Output: false
-console.log(decodeTheRing("aa", "*")); // Output: true
-console.log(decodeTheRing("cb", "?a")); // Output: false
-console.log(decodeTheRing("cb", "c*")); // Output: true
-console.log(decodeTheRing("abc", "a*c")); // Output: true
